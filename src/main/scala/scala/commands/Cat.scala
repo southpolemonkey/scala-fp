@@ -11,13 +11,13 @@ class Cat(name: String) extends Command {
      */
 
     val wd = state.wd
+    val dirEntry = wd.findEntry(name)
 
-    if (wd.hasEntry(name)) {
-      if (wd.findEntry(name).isDirectory) state.setMessage(s"$name is a directory")
-      else {
-        val content:String = wd.findEntry(name).asFile.getContents()
-        state.setMessage(content)
-      }
-    } else state.setMessage("No such file")
+    if (dirEntry == null)
+      state.setMessage("No such file or directory")
+    else if (!dirEntry.isFile)
+      state.setMessage(s"$name is a directory")
+    else
+      state.setMessage(dirEntry.asFile.getContents())
   }
 }

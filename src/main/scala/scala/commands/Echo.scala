@@ -15,7 +15,6 @@ class Echo(args: List[String]) extends Command {
 
     if (args.length == 0) state
     else if (args.length == 1) {
-      print(args.mkString(" "))
       state.setMessage(args(0))
     } else {
       val operator = args(args.length - 2)
@@ -27,13 +26,12 @@ class Echo(args: List[String]) extends Command {
       } else if (operator.equals(">>")) {
         doEcho(state, contents, filename, true)
       } else {
-        println("Just echo")
         state.setMessage(createContent(args, args.length))
       }
     }
   }
 
-  def createContent(args: List[String], topIndex: Int): String = args.take(args.length - topIndex + 1).mkString(" ")
+  def createContent(args: List[String], topIndex: Int): String = args.take(topIndex).mkString(" ") + "\n"
 
   def doEcho(state: State, contents: String, filename: String, append: Boolean) = {
 
@@ -46,7 +44,7 @@ class Echo(args: List[String]) extends Command {
         else new file
      */
 
-    def echoHelper(state: State, contents: String, append: Boolean): Directory ={
+    def echoHelper(state: State, contents: String, append: Boolean, filename:String): Directory ={
       val wd = state.wd
       if (!append) {
         val file = new File(wd.parentPath, filename, contents)
@@ -60,14 +58,13 @@ class Echo(args: List[String]) extends Command {
           val file = new File(wd.parentPath, filename, contents)
           wd.addEntry(file)
         } else {
-          val existedFile:File = wd.findEntry(filename).asFile
-          val updatedFile:File = existedFile.updateContents(contents)
+          val updatedFile:File = wd.findEntry(filename).asFile.updateContents(contents)
           wd.replaceEntry(filename, updatedFile)
         }
       }
     }
 
-    val newWd:Directory = echoHelper(state, contents, append)
+    val newWd:Directory = echoHelper(state, contents, append, filename)
 
     State(state.root, newWd, state.output)
   }

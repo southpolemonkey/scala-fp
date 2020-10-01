@@ -31,7 +31,6 @@ object Command {
   def from(input: String): Command = {
     val cmds: Array[String] = input.split(" ").map(_.trim)
     val cmd = cmds(0)
-    val args = cmds.tail.toList
 
     if (cmds.isEmpty) emptyCommand
 //    else if (cmds.length == 1) println("incomplete command")
@@ -54,7 +53,7 @@ object Command {
       new Rm(cmds(1))
     } else if (cmd.equals(ECHO)) {
       if (cmds.length < 2) new Echo(List())
-      else new Echo(args)
+      else new Echo(cmds.tail.toList)
     } else if (cmd.equals(CAT)) {
       if (cmds.length < 2) incompletedCommand(cmd)
       else new Cat(cmds(1))
