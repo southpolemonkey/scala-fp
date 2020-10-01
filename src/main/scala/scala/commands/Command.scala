@@ -2,10 +2,7 @@ package scala.commands
 
 import scala.filesystem.State
 
-trait Command {
-
-  def apply(state: State): State
-
+trait Command extends (State => State){
 }
 
 object Command {
@@ -33,38 +30,32 @@ object Command {
     val cmd = cmds(0)
 
     if (cmds.isEmpty) emptyCommand
-//    else if (cmds.length == 1) println("incomplete command")
-    else if (cmd.equals(MKDIR)) {
-      if (cmds.length < 2) incompletedCommand(cmd)
-      else new Mkdir(cmds(1))
-    } else if (cmd.equals(LS)) {
-      new Ls
-    } else if (cmd.equals(PWD)) {
-      new Pwd
-    } else if (cmd.equals(TOUCH)) {
-      if (cmds.length < 2) incompletedCommand(cmd)
-      else new Touch(cmds(1))
-    } else if (cmd.equals(CD)) {
-      if (cmds.length < 2) incompletedCommand(cmd)
-      else new Cd(cmds(1))
-    } else if (cmd.equals(EXIT)) {
-      new Exit
-    } else if (cmd.equals(RM)) {
-      new Rm(cmds(1))
-    } else if (cmd.equals(ECHO)) {
-      if (cmds.length < 2) new Echo(List())
-      else new Echo(cmds.tail.toList)
-    } else if (cmd.equals(CAT)) {
-      if (cmds.length < 2) incompletedCommand(cmd)
-      else new Cat(cmds(1))
+    else cmd match {
+      case MKDIR =>
+        if (cmds.length < 2) incompletedCommand(cmd)
+        else new Mkdir(cmds(1))
+      case LS =>
+        new Ls
+      case PWD =>
+        new Pwd
+      case TOUCH =>
+        if (cmds.length < 2) incompletedCommand(cmd)
+        else new Touch(cmds(1))
+      case CD =>
+        if (cmds.length < 2) incompletedCommand(cmd)
+        else new Cd(cmds(1))
+      case RM =>
+        new Rm(cmds(1))
+      case ECHO =>
+        if (cmds.length < 2) new Echo(List())
+        else new Echo(cmds.tail.toList)
+      case CAT =>
+        if (cmds.length < 2) incompletedCommand(cmd)
+        else new Cat(cmds(1))
+      case EXIT =>
+        new Exit
+      case _ =>
+        new UnknownCommand
     }
-    else new UnknownCommand
-
-//    cmd.toUpperCase match {
-//      case "LS" => new Ls
-//      case "TOUCH" => new Touch
-//      case "MKDIR" => new Mkdir
-//      case _ => new UnknownCommand
-//    }
   }
 }
