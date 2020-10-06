@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c8c6ca1-281e-4494-be19-e2007b897649" name="Default Changelist" comment="start advanced scala course" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="udemy" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="udemy" type="f1a62948:ProjectNode" />
+                <item name="udemy" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="udemy" type="f1a62948:ProjectNode" />
+                <item name="udemy-build" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+        <option value="Python Script" />
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ftX4DEyIjjagIZzgUeHrGF6UA6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+  </component>
+  <component name="RunManager" selected="Application.settest">
+    <configuration name="Filesystem" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.filesystem.Filesystem" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.filesystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pf.PartialFunctions" />
+      <module name="advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pattern" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="advanced.pattern" />
+      <module name="advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="settest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pf.settest" />
+      <module name="advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="udemy" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.settest" />
+        <item itemvalue="Application.PartialFunctions" />
+        <item itemvalue="Application.pattern" />
+        <item itemvalue="Application.Filesystem" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c8c6ca1-281e-4494-be19-e2007b897649" name="Default Changelist" comment="" />
+      <created>1597038168790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597038168790</updated>
+      <workItem from="1597038172907" duration="24385000" />
+      <workItem from="1597195590533" duration="30178000" />
+      <workItem from="1597374541206" duration="9598000" />
+      <workItem from="1598083577199" duration="399000" />
+      <workItem from="1598936404140" duration="2438000" />
+      <workItem from="1599632817948" duration="22593000" />
+      <workItem from="1600049721222" duration="12857000" />
+      <workItem from="1601427835695" duration="49417000" />
+      <workItem from="1601952602832" duration="1398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start advanced scala course" />
+    <option name="LAST_COMMIT_MESSAGE" value="start advanced scala course" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="217" key="#Intentions" timestamp="1601597323306">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="560" y="217" key="#Intentions/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601597323306" />
+    <state x="682" y="300" width="886" height="547" key="#Notifications" timestamp="1601621235652">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="682" y="300" width="886" height="547" key="#Notifications/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621235652" />
+    <state x="698" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601533993850">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="698" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601533993850" />
+    <state x="2490" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1597320395771" />
+    <state x="773" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1601603648361">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="773" y="252" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601603648361" />
+    <state x="537" y="126" key="CommitChangelistDialog2" timestamp="1601621319134">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="537" y="126" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621319134" />
+    <state width="1920" height="290" key="GridCell.Tab.0.bottom" timestamp="1601621420672">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601428053160" />
+    <state width="1750" height="290" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1597635391701" />
+    <state width="1920" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621420672" />
+    <state width="1920" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601509419315" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1598093197412" />
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/1920.23.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1599787751186" />
+    <state width="1920" height="290" key="GridCell.Tab.0.center" timestamp="1601621420672">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601428053159" />
+    <state width="1750" height="290" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1597635391700" />
+    <state width="1920" height="290" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621420672" />
+    <state width="1920" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601509419314" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1598093197412" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center/1920.23.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1599787751186" />
+    <state width="1920" height="290" key="GridCell.Tab.0.left" timestamp="1601621420672">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601428053158" />
+    <state width="1750" height="290" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1597635391700" />
+    <state width="1920" height="290" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621420672" />
+    <state width="1920" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601509419314" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1598093197411" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left/1920.23.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1599787751186" />
+    <state width="1920" height="290" key="GridCell.Tab.0.right" timestamp="1601621420672">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601428053160" />
+    <state width="1750" height="290" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1597635391701" />
+    <state width="1920" height="290" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621420672" />
+    <state width="1920" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601509419315" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1598093197412" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right/1920.23.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1599787751186" />
+    <state x="351" y="167" width="1259" height="796" key="SettingsEditor" timestamp="1601621388729">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="351" y="167" width="1259" height="796" key="SettingsEditor/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621388729" />
+    <state x="2237" y="190" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1597042336220" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1601621267868">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621267868" />
+    <state x="653" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1599632817189">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="653" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.1080.1897@0.23.1920.1057" timestamp="1599632817189" />
+    <state x="2445" y="384" key="com.intellij.ide.util.TipDialog/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1598083577218" />
+    <state x="748" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601621373884">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="748" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601621373884" />
+    <state x="2361" y="139" width="782" height="825" key="find.popup" timestamp="1597124889037">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2361" y="139" width="782" height="825" key="find.popup/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1597124889037" />
+    <state x="328" y="237" key="new project wizard" timestamp="1601519085861">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="328" y="237" key="new project wizard/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601519085861" />
+    <state x="601" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1601441556018">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="601" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1601441556018" />
+    <state x="2393" y="258" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1597298471301" />
+  </component>
+</project>
